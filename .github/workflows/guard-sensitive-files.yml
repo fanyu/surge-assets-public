@@ -1,0 +1,31 @@
+name: Guard Sensitive Files
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Block sensitive paths
+        run: |
+          set -euo pipefail
+          blocked_paths='(^|/)(subscriptions/|geoip/|domainsets/|.*\.conf$|.*\.iosinterface$)'
+          if git ls-files | grep -E "$blocked_paths" >/dev/null; then
+            echo "Blocked sensitive path detected."
+            git ls-files | grep -E "$blocked_paths"
+            exit 1
+          fi
+
+      - name: Block credential-like content
+        run: |
+          set -euo pipefail
+          pattern='(token=[A-Za-z0-9._%-]{8,}|authorization:[[:space:]]*(bearer|basic)|private-key[[:space:]]*=|psk=|vmess://|vless://|trojan://|ss://|ssr://|sub\.store/download|/sub\?token=)'
+          files="$(git ls-files)"
+          if [ -n "$files" ] && grep -R -n -I -E "$pattern" $files; then
+            echo "Blocked credential-like content detected."
+            exit 1
+          fi
