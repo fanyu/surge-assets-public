@@ -2,6 +2,7 @@
 # OWNER: fanyu
 # MANAGED: merged for self-hosted Surge assets
 # SOURCES: china_dns.list, china_max.list, cn.list, china_asn.list
+# PRECEDENCE: place after china/media.list so media-specific direct rules win first
 # TOTAL: 13735
 
 DOMAIN-SUFFIX,dns.alidns.com

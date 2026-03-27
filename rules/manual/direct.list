@@ -1,0 +1,15 @@
+# NAME: direct
+# OWNER: fanyu
+# MANAGED: self-hosted manual direct overrides
+# TOTAL: 10
+
+DOMAIN,pan666.net
+DOMAIN-SUFFIX,aptv.app
+DOMAIN-SUFFIX,boxjs.app
+DOMAIN-SUFFIX,cultofmac.com
+DOMAIN-SUFFIX,macrumors.com
+DOMAIN-SUFFIX,appleinsider.com
+DOMAIN-SUFFIX,wiz.money
+DOMAIN-SUFFIX,syncbits.com
+DOMAIN,api.longbridge.global
+DOMAIN,macfu1.123ths.com

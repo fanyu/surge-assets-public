@@ -2,6 +2,7 @@
 # OWNER: fanyu
 # MANAGED: merged for self-hosted Surge assets
 # SOURCES: xiaohongshu.list, bilibili.list, china_media.list
+# PRECEDENCE: place before china/direct.list so media-specific direct rules win first
 # TOTAL: 454
 
 DOMAIN-SUFFIX,fengkongcloud.com
