@@ -1,7 +1,7 @@
 # NAME: reject-ads
 # OWNER: fanyu
 # MANAGED: self-hosted narrow adservice rejects
-# TOTAL: 7
+# TOTAL: 6
 
 DOMAIN-SUFFIX,adservice.com
 DOMAIN-SUFFIX,adservice.google.com
@@ -9,4 +9,3 @@ DOMAIN-SUFFIX,adservice.google.com.au
 DOMAIN-SUFFIX,adservice.google.com.hk
 DOMAIN-SUFFIX,googleadservices.com
 DOMAIN-SUFFIX,googleadservices-cn.com
-DOMAIN,api-adservices.apple.com
