@@ -5,6 +5,6 @@
 
 DOMAIN,sub.store
 DOMAIN-SUFFIX,136135.xyz
-DOMAIN-SUFFIX,vercel.app
+DOMAIN,sub-store.vercel.app
 DOMAIN-SUFFIX,s1.trojanflare.one
 DOMAIN-SUFFIX,hermchats.com
