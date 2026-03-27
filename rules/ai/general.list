@@ -1,9 +1,12 @@
-# NAME: services
+# NAME: general
 # OWNER: fanyu
-# MANAGED: merged for self-hosted Surge assets
-# SOURCES: ai_skk.list, copilot.list
-# TOTAL: 99
+# MANAGED: self-hosted general AI rules
+# SOURCES: manual, ai_skk.list, copilot.list
+# TOTAL: 101
 
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN,analytics.google.com
 DOMAIN,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe
 DOMAIN-SUFFIX,generativeai.google
 DOMAIN,antigravity.google
@@ -91,7 +94,6 @@ DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN-SUFFIX,launchdarkly.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,observeit.net
-DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,openaicom.imgix.net
 DOMAIN-SUFFIX,segment.io
