@@ -10,6 +10,10 @@
 # PROCESS-NAME: 13
 # USER-AGENT: 23
 # TOTAL: 1616
+
+DOMAIN,apps.mzstatic.com
+DOMAIN-SUFFIX,gs-loc.apple.com
+DOMAIN-SUFFIX,ls.apple.com
 DOMAIN-KEYWORD,apple-support.akadns.net
 DOMAIN-KEYWORD,apple.com.akadns.net
 DOMAIN-KEYWORD,apple.com.edgekey.net
