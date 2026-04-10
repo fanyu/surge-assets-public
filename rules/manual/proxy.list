@@ -1,10 +1,11 @@
 # NAME: proxy
 # OWNER: fanyu
 # MANAGED: self-hosted manual proxy overrides
-# TOTAL: 5
+# TOTAL: 6
 
 DOMAIN,sub.store
 DOMAIN-SUFFIX,136135.xyz
 DOMAIN,sub-store.vercel.app
 DOMAIN-SUFFIX,s1.trojanflare.one
 DOMAIN-SUFFIX,hermchats.com
+DOMAIN,open.longbridge.com
