@@ -1,7 +1,7 @@
 # NAME: brokers
 # OWNER: fanyu
 # MANAGED: self-hosted brokerage access domains
-# TOTAL: 15
+# TOTAL: 20
 
 DOMAIN-SUFFIX,moomoo.com
 DOMAIN-SUFFIX,futuhn.com
@@ -18,3 +18,8 @@ DOMAIN-SUFFIX,longbridge.app
 DOMAIN-SUFFIX,longbridge.cn
 DOMAIN-SUFFIX,longbridge.global
 DOMAIN-SUFFIX,lbkrs.com
+DOMAIN-SUFFIX,app-analytics-services.com
+DOMAIN-SUFFIX,wbrks.com
+DOMAIN-SUFFIX,lbctrl.com
+DOMAIN-SUFFIX,longbridgeapp.com
+DOMAIN-SUFFIX,pbkrs.com
