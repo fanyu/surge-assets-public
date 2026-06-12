@@ -1,7 +1,7 @@
 # NAME: brokers
 # OWNER: fanyu
 # MANAGED: self-hosted brokerage access domains
-# TOTAL: 20
+# TOTAL: 21
 
 DOMAIN-SUFFIX,moomoo.com
 DOMAIN-SUFFIX,futuhn.com
@@ -11,6 +11,7 @@ DOMAIN-SUFFIX,itiger.com
 DOMAIN-SUFFIX,itigergrowth.com
 DOMAIN-SUFFIX,itigergrowtha.com
 DOMAIN-SUFFIX,itigerup.com
+DOMAIN-SUFFIX,tigerfintech.com
 DOMAIN-SUFFIX,skytigris.cn
 DOMAIN-SUFFIX,longbridge.com
 DOMAIN-SUFFIX,longbridge.hk
